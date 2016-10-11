@@ -1,1 +1,0 @@
-# Groove Temperture Sensor repo
