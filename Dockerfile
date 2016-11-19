@@ -9,11 +9,11 @@ RUN apt-get -q update \
 		build-essential  \
 		curl \
         	git 
-		
+
+RUN pip install paho-mqtt		
 #RUN apt-get -y install nodejs
 #RUN apt-get install npm
 #RUN ln -s /usr/bin/nodejs /usr/bin/node
-
 
 # Install Node.js
 #RUN \
@@ -22,9 +22,6 @@ RUN apt-get -q update \
 
 # Enable systemd init system in container
 ENV INITSYSTEM=on
-
-
-
 
 #Adding code to testing
 # Defines our working directory in container
