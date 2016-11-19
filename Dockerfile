@@ -42,6 +42,7 @@ RUN sudo python setup.py install --force-pi2
 
 
 
+
 WORKDIR /usr/src/app/IoTRaspberryPi
 
 # RUN su root -c "python server.py"
